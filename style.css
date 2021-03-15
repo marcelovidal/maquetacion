@@ -1,9 +1,59 @@
 body {
     background-color: beige;
+    font-family: serif;
+    font-size: 16px;
 }
 
 #wrapper {
     margin: 0 auto;
     width: 80%;
     background-color: white;
+}
+
+h1,
+h6 {
+    font-weight: lighter;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+}
+
+#nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav li {
+    padding: 10px;
+    float: left;
+    display: block;
+}
+
+p {
+    text-align: justify;
+    line-height: 200%;
+}
+
+.posts article,
+#footer section:first-child {
+    border: #cccccc 2px dotted;
+}
+
+.posts article {
+    width: 50vw;
+    padding: 0 1%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+form input,
+form textarea {
+    background-color: green;
+}
+
+form {
+    width: 50%;
+    margin: 0px auto;
 }
